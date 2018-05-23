@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jane Austen Tribute Page</title>
+    <link rel="stylesheet" href="public/styles/stylesheets/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-default">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="public/assets/backup-images/feather-quill-gray.png" height="35" width="35"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+              <ul class="nav navbar-nav navbar-right">
+                <li id="home-button"><a href="#">Home</a></li>
+                <li id="quotes-button"><a href="#">Quotes</a></li>
+                <li id="timeline-button"><a href="#">Timeline</a></li>
+                <li id="resources-button"><a href="#">Resources</a></li>
+              </ul>
+            </div>
+        </div>
+      </nav> <!-- navbar -->
+
+      <header>
+        <div class="banner">
+        </div> <!-- banner background image -->
+      </header>
+
+      <div id="theCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#theCarousel" data-slide-to="1"></li>
+          <li data-target="#theCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+          <div class="slide1"></div>
+            <blockquote>
+              <p>There is a stubbornness about me that never can bear to be frightened at the will of others. My courage always rises at every attempt to intimidate me.</p>
+            </blockquote>
+            <small><em>Pride and Prejudice</em></small>
+          </div>
+
+          <div class="item">
+          <div class="slide2"></div>
+            <blockquote>
+              <p>Know your own happiness. Want for nothing but patience – or give it a more fascinating name: Call it hope.</p>
+            </blockquote>
+            <small><em>Sense and Sensibility</em></small>
+          </div>
+
+          <div class="item">
+          <div class="slide3"></div>
+            <blockquote>
+              <p>You pierce my soul. I am half agony, half hope. Tell me not that I am too late, that such precious feelings are gone for ever.</p>
+            </blockquote>
+            <small><em>Persuasion</em></small>
+          </div>
+        </div> <!-- carousel-inner -->
+
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div> <!-- theCarousel -->
+
+      <section id="theTimeline" class="timeline-section">
+        <div class="timeline-border">
+        <div class="timeline-container">
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Jane Austen is Born</h3>
+              <div class="date">1775</div>
+              <p>Jane Austen is born in Steventon, England on December 16, 1775. She is the seventh of eight children born to William and Cassandra Austen, and one of only two daughters. Throughout her life, her older sister, also named Cassandra after her mother, is her closest friend.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>First Schooling</h3>
+              <div class="date">1783</div>
+              <p>Cassandra and Jane Austen are sent to Oxford, England to be educated by a private tutor named Ann Cawley. Both girls contract typhoid fever during an outbreak and return home to Steventon.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Boarding School</h3>
+              <div class="date">1785</div>
+              <p>Austen enrolls in boarding school at Abbey School in Reading.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Home School</h3>
+              <div class="date">1786</div>
+              <p>The family's money runs out and Austen returns to Steventon from boarding school. The rest of her education is completed at home from her father's voluminous library. Austen lives with her parents and sister for the rest of her life.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Lady Susan</h3>
+              <div class="date">1793</div>
+              <p>Austen begins Lady Susan, a novella told in the form of a series of letters. She works on it for two years.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>First Love</h3>
+              <div class="date">1795</div>
+              <p>Austen meets Tom LeFroy, an Irish law student who is the nephew of her neighbor. Austen and LeFroy spend time together during his month-long visit to Steventon. He leaves in January 1796 and soon becomes engaged to someone else, ending whatever relationship they had. Austen writes affectionately of LeFroy to her sister, prompting later speculation that he is the real-life inspiration for her male characters.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>First Novel Attempt</h3>
+              <div class="date">1797</div>
+              <p>Austen completes the first draft of First Impressions, the novel that later becomes Pride and Prejudice.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+              <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>The Move to Bath</h3>
+              <div class="date">1801</div>
+              <p>Austen moves with her parents to the resort town of Bath, England, after her father's retirement from clergy.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>An Indecent Proposal</h3>
+              <div class="date">1802</div>
+              <p>Just before her 27th birthday, Jane Austen receives her only marriage proposal. A recent Oxford grad named Harris Bigg-Wither proposes to Austen while she is visiting his sisters. Realizing that the marriage would be good for her family's circumstances, Austen accepts. The next morning, however, she changes her mind and withdraws her acceptance. Bigg-Wither marries two years later; Austen never does.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Thwarted Novel</h3>
+              <div class="date">1803</div>
+              <p>Austen sells a novel called Susan to a publisher for £10. But the book is never published, and Austen's family later buys back the rights to the work.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Austen Falls on Hard Times</h3>
+              <div class="date">1805</div>
+              <p>Jane's father William George Austen dies, leaving his wife and sisters financially dependent on his sons. The Austen women first rent a house in Bath, then move in with Jane's brother Frank and his wife.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Chawton Cottage</h3>
+              <div class="date">1809</div>
+              <p>Jane's father William George Austen dies, leaving his wife and sisters financially dependent on his sons. The Austen women first rent a house in Bath, then move in with Jane's brother Frank and his wife.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Sense and Sensibility</h3>
+              <div class="date">1811</div>
+              <p>Austen publishes Sense and Sensibility, whose author is identified on the cover only as "a Lady." Austen's name is not attached to any of the novels she publishes during her lifetime.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Pride and Prejudice</h3>
+              <div class="date">1813</div>
+              <p>Pride and Prejudice is published.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Mansfield Park</h3>
+              <div class="date">1814</div>
+              <p>Mansfield Park is published.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>An Awkward Request</h3>
+              <div class="date">1815</div>
+              <p>The librarian of the Prince Regent (later King George IV), a big fan of Austen's work, invites her to the prince's London home and suggests that she dedicate her soon-to-be-published book to him. Austen is not a fan of the prince, but is unable to say no. Emma is published the next month with a dedication to the prince. It is the last novel published in her lifetime.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Austen Falls Ill</h3>
+              <div class="date">1816</div>
+              <p>Austen begins to feel the first signs of a long, progressive illness that saps her energy. She continues to work on two novels, Persuasion and Northanger Abbey, but is delayed by her illness and by financial troubles caused by the failure of her brother Henry's bank.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Death</h3>
+              <div class="date">1817</div>
+              <p>Jane Austen dies on July 18, 1817, at the age of 41. She is buried in Winchester Cathedral..</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Final Novels</h3>
+              <div class="date">1817</div>
+              <p>Austen's final novels, Persuasion and Northanger Abbey (a rewrite of the unpublished novel Susan), are posthumously published together in one volume. A biographical note by her brother Henry publicly identifies her for the first time as the author of her previous novels.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>A Legacy Revivied</h3>
+              <div class="date">1869</div>
+              <p>Austen's nephew James Edward Austen-Leigh publishes a biography of his aunt entitled A Memoir of Jane Austen. The memoir sparks renewed interest in the writer.</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-circle"></div>
+            <div class="timeline-content">
+              <h3>Austenolatry</h3>
+              <div class="date">1883</div>
+              <p>The first popular editions of Austen's novels are published, sparking Austen fandom that continues to this day. Critic (and father of Virginia Woolf) Leslie Stephens calls her rabid following "Austenolatry."</p>
+            </div> <!-- timeline-content -->
+          </div> <!-- timeline-block -->
+
+        </div> <!-- timeline-container -->
+      </div> <!-- timeline-border -->
+      </section> <!-- timeline-section -->
+
+      <div class="white-space"> </div> <!-- white space between timeline and footer -->
+
+      <footer class="container-fluid text-center" id="resources">
+        <div class="row tag-line">
+
+          <div class="col-lg-8 col-md-8 col-sm-8 col xm 12">
+            <p><span class="tag-line-number">6</span> Novels, <span class="tag-line-number">200</span> Years, <span class="emphasized">Millions of Fans</span><p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col xm 12"> <!-- 2nd column -->
+            <h4 class="resource-title">Resources</h1>
+              <ul class="resources">
+                <li><a href="https://en.wikipedia.org/wiki/Jane_Austen"><p>Wikipedia</p></a></li>
+                <li><a href="https://www.janeausten.co.uk/"><p>Jane Austen UK</p></a></li>
+                <li><a href="http://www.jasna.org/"><p>Jane Austen Society</p></a></li>
+                <li><a href="http://www.mollands.net/index.html"><p>Mollands</p></a></li>
+                <li><a href="https://www.amazon.ca/Jane-Austen-Complete-Classics-hardcover/dp/0141395206/ref=sr_1_3?ie=UTF8&qid=1526498014&sr=8-3&keywords=jane+austen"><p>Amazon</p></a></li>
+                <li><a href="https://www.etsy.com/ca/search?q=jane%20austen"><p>Etsy</p></a></li>
+                <li><a href="https://www.shmoop.com/jane-austen/timeline.html"><p>Timeline</p></a></li>
+              </ul>
+          </div> <!-- end of 2nd column -->
+        </div> <!-- row tag-line -->
+      </footer>
+
+      <div class="copyright">
+        <div><p>Copyright © 2018 Himashi Hettege Dona</p></div>
+        <div><a href="https://www.freepik.com/free-photo/flower-near-teapot_1722258.htm"><p>Floral Background Designed by Freepik</p></a></div>
+      </div> <!-- copyright -->
+
+    <!-- <script>
+
+    // Pressing Home Button will scroll to top of page //
+      $('.navbar-brand img').click(function(){
+        $('body, html').animate({scrollTop: 0}, 700);
+      });
+
+    // Pressing Nav Bar Image will scroll to top of page //
+      $('#home-button').click(function(){
+        $('body, html').animate({scrollTop: 0}, 700);
+      });
+
+    // Pressing Quotes Button will scroll to top of page //
+      // $(function() {
+        $("#quotes-button").click(function() {
+          var position = $("#theCarousel").offset().top; //calculates how far the top of the Carousel is from the top of the page
+          $('body, html').animate({ scrollTop: position }, 700); });
+      // });
+
+      // $(function() {
+        $("#timeline-button").click(function() {
+          var position = $("#theTimeline").offset().top; //calculates how far the top of the Timeline is from the top of the page
+          $('body, html').animate({scrollTop: position}, 700); });
+      // });
+
+      // $(function() {
+        $("#resources-button").click(function() {
+          var position = $("#resources").offset().top; //calculates how far the top of the Resource Footer is from the top of the page
+          $('body, html').animate({scrollTop: position}, 700); });
+      // });
+
+    </script> -->
+    <script src="public/scripts/scripts.js"></script>
+  </body>
+</html>

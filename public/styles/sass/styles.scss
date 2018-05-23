@@ -1,0 +1,247 @@
+@import "compass";
+@import "partials/variables";
+
+body {
+  font-size: 12px; //em size is based on this
+}
+/*<---------------------------------------------------------Navbar------------------------------------------------------------------------->*/
+
+.navbar {
+  margin-bottom: 0 !important;
+  border: none !important;
+  background-color: $white !important;
+
+  .nav li {
+    font-family: $sans-serif;
+  	text-transform: uppercase;
+  	letter-spacing: 0.27em;
+  	font-size: 0.85em;
+  	font-weight: $light;
+    color: $gray;
+  }
+
+    .navbar-brand {
+  	   padding: 0.25em 1.36em 0.25em !important;
+     }
+}
+
+/*<-------------------------------------------------Banner Background Image--------------------------------------------------------------->*/
+
+.banner {
+  width: 100%;
+  height: 58em;
+  background: url(../../assets/banner-image/janeaustenbackground2white.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*<----------------------------------------------------Quotes Carousel-------------------------------------------------------------------->*/
+
+.carousel {
+  width: 100%;
+  height: 28.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  //div where paragraph lies within//
+  .carousel-inner {
+    width: 50% !important;
+  }
+
+    //paragraph text//
+    .item p {
+      padding-left: 1.18em;
+      padding-right: 1.18em;
+      font-family: serif;
+      color: $text-black-gray;
+    }
+
+    blockquote:before, blockquote:after {
+      content:'\f10d';
+      font-family:'FontAwesome';
+      color: $bright-pink;
+    }
+
+    blockquote:after {
+      content:'\f10e';
+      float: right;
+    }
+
+  .carousel-control.left {
+      background-image: none !important;
+    }
+
+  .carousel-control.right {
+      background-image: none !important;
+  }
+
+    //arrows//
+    .glyphicon {
+      color: $gray-arrows !important;
+    }
+
+    //indicators at bottom of carousel//
+    .carousel-indicators li {
+      background-color: $bright-pink !important;
+    }
+}
+
+/*<---------------------------------------------------------Timeline------------------------------------------------------------------------>*/
+
+.timeline-section {
+  background-color: #C3C0C8;
+	padding: 2.1em; /* This is so the pink border shows up */
+	font-family: $sans-serif-gillsans;
+  color: $text-black-gray;
+
+  .timeline-border {
+    border: 0.75em solid $dull-pink;
+  }
+
+  .timeline-container {
+    position: relative;
+	  max-width: 73.1em;
+	  margin: 0 auto;
+	  padding: 3.6em 0;
+
+    /* this is the vertical line */
+    &::before {
+      content: '';
+      width: 0.25em;
+      height: 98%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background: $white;
+    }
+
+    .timeline-block {
+	    width: 100%;
+	    height: 12.8em; /* Height is very important! */
+	    margin-bottom: 3.5em;
+
+      /* removes margin from last timeline item so timeline equidistant from top and bottom */
+      &:last-child {
+         margin-bottom: 0;
+      }
+
+      /* these are the points on the line */
+      .timeline-circle {
+	       width: 2.145em;
+         height: 2.145em;
+	       border-radius: 50%;
+	       position: absolute;
+	       left: 50%;
+	       margin-top: -0.83em;
+	       margin-left: -1.1em;
+	       background-color: $forrest-green;
+      }
+
+      .timeline-content {
+	       position: relative;
+	       padding: 0.72em 2.214em;
+	       border-radius: 0.5em;
+	       background: $white;
+	       box-shadow: 0 2.1em 1.8em -1em $brown-box-shadow;
+	       margin-left: 4.16em;
+	       margin-right: 4.16em;
+	       width: 28.75em;
+
+        .date {
+          background: #e5d2d2;
+  	      display: inline-block;
+  	      color: #A17878;
+  	      padding: 0.7em;
+  	      position: absolute;
+  	      top: 0;
+  	      right: 0;
+  	      font-size: 1em;
+  	      font-family: "Titillium Web", sans-serif;
+          font-weight: $normal;
+        }
+      }
+    }
+
+      .timeline-block:nth-child(even) .date {
+        right: auto;
+        left: 0;
+      }
+
+      .timeline-block:nth-child(even) .timeline-content {
+        padding-left: 5em;
+        float: right;
+      }
+  }
+}
+
+/*<---------------------------------------------------------Footer------------------------------------------------------------------------>*/
+
+.white-space {
+  height: 1em;
+  background-color: $white;
+}
+
+footer {
+  background-color: $dull-pink;
+
+  .tag-line {
+	   display: flex;
+     align-items: center;
+
+     p {
+       font-family: $serif;
+	     font-size: 2.86em;
+	     color: $darker-pink;
+
+       .tag-line-number {
+	        text-decoration: underline;
+        }
+
+        .emphasized {
+	         font-family: $sans-serif-gillsans;
+	         font-size: 1.3em;
+	         letter-spacing: 0.05em;
+         }
+     }
+   }
+
+   .resource-title {
+	    text-align: left;
+	    padding: 0.25em 0 0.25em 0;
+	    color: $text-black-gray;
+	    font-family: $sans-serif-gillsans;
+	    font-weight: $normal;
+	    letter-spacing: 0.18em;
+
+      &::before {
+        content: '';
+        width: 0.13em;
+        height: 12%;
+        position: absolute;
+        left: 0.002em;
+        transform: translateX(50%);
+        background: $white;
+      }
+    }
+
+    .resources {
+    	list-style: none;
+    	text-align: left;
+    	padding-left: 1.4em;
+
+      p {
+        font-size: 0.93em;
+	      color: $text-black-gray;
+        font-weight: 600;
+      }
+    }
+}
+
+.copyright {
+  height: 4.5em;
+  padding: 0.5em;
+  text-align: center;
+  color: $copyright-pink;
+  background-color: $darker-pink;
+}
