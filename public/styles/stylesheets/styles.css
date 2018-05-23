@@ -1,16 +1,200 @@
-/* line 4, ../sass/styles.scss */
+@media only screen and (max-width: 400px) {
+  /* line 10, ../sass/partials/_media.scss */
+  .carousel-inner {
+    width: 80% !important;
+  }
+
+  /* line 14, ../sass/partials/_media.scss */
+  .item {
+    height: 15em !important;
+  }
+
+  /* line 18, ../sass/partials/_media.scss */
+  .timeline-border {
+    border: 0em !important;
+  }
+
+  /* line 22, ../sass/partials/_media.scss */
+  .timeline-block {
+    height: 19em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 27, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(2n) {
+    height: 16em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 32, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(3n) {
+    height: 11.5em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 37, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(4n) {
+    margin-bottom: 1.5em !important;
+  }
+
+  /* line 41, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(5n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 46, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(6n) {
+    height: 24em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 51, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(7n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 56, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(8n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 61, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(9n) {
+    height: 24em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 66, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(10n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 1em !important;
+  }
+
+  /* line 71, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(12n) {
+    height: 16em !important;
+    /* Height is very important! */
+    margin-bottom: 1.5em !important;
+  }
+
+  /* line 76, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(13n) {
+    height: 14.5em !important;
+    /* Height is very important! */
+    margin-bottom: 1em !important;
+  }
+
+  /* line 81, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(14n) {
+    height: 10em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 86, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(15n) {
+    height: 10em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 91, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(16n) {
+    height: 22em !important;
+    /* Height is very important! */
+    margin-bottom: 1.4em !important;
+  }
+
+  /* line 96, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(18n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 101, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(19n) {
+    margin-bottom: 1em !important;
+  }
+
+  /* line 105, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(20n) {
+    margin-bottom: 2.9em !important;
+  }
+
+  /* line 110, ../sass/partials/_media.scss */
+  .timeline-container::before {
+    /* this is the vertical line */
+    left: 0 !important;
+  }
+
+  /* these are the points on the line */
+  /* line 116, ../sass/partials/_media.scss */
+  .timeline-circle {
+    width: 1.8em !important;
+    height: 1.8em !important;
+    left: 0 !important;
+    margin-left: -0.95em !important;
+  }
+
+  /* line 123, ../sass/partials/_media.scss */
+  .timeline-content {
+    margin-left: 2em !important;
+    width: 21.5em !important;
+  }
+
+  /* line 128, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(even) .date {
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  /* line 133, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(even) .timeline-content {
+    padding: 0.72em 2.214em !important;
+    float: none !important;
+  }
+
+  /* line 138, ../sass/partials/_media.scss */
+  .tag-line {
+    font-size: 0.5em;
+  }
+
+  /* line 142, ../sass/partials/_media.scss */
+  .resource-title {
+    font-size: 1.9em;
+  }
+
+  /* line 146, ../sass/partials/_media.scss */
+  .resources-list {
+    font-size: 2em;
+  }
+}
+/* line 6, ../sass/styles.scss */
 body {
   font-size: 12px;
 }
 
 /*<---------------------------------------------------------Navbar------------------------------------------------------------------------->*/
-/* line 9, ../sass/styles.scss */
+/* line 11, ../sass/styles.scss */
 .navbar {
   margin-bottom: 0 !important;
   border: none !important;
   background-color: #ffffff !important;
 }
-/* line 14, ../sass/styles.scss */
+/* line 16, ../sass/styles.scss */
 .navbar .nav li {
   font-family: gibson, sans-serif;
   text-transform: uppercase;
@@ -19,13 +203,13 @@ body {
   font-weight: 100;
   color: #999;
 }
-/* line 23, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .navbar .navbar-brand {
   padding: 0.25em 1.36em 0.25em !important;
 }
 
 /*<-------------------------------------------------Banner Background Image--------------------------------------------------------------->*/
-/* line 30, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 .banner {
   width: 100%;
   height: 58em;
@@ -35,7 +219,7 @@ body {
 }
 
 /*<----------------------------------------------------Quotes Carousel-------------------------------------------------------------------->*/
-/* line 40, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .carousel {
   width: 100%;
   height: 28.5em;
@@ -43,47 +227,47 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* line 48, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 .carousel .carousel-inner {
-  width: 50% !important;
+  width: 50%;
 }
-/* line 53, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .carousel .item p {
   padding-left: 1.18em;
   padding-right: 1.18em;
   font-family: serif;
   color: #777;
 }
-/* line 60, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .carousel blockquote:before, .carousel blockquote:after {
   content: '\f10d';
   font-family: 'FontAwesome';
   color: #ebb1b2;
 }
-/* line 66, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .carousel blockquote:after {
   content: '\f10e';
   float: right;
 }
-/* line 71, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .carousel .carousel-control.left {
   background-image: none !important;
 }
-/* line 75, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 .carousel .carousel-control.right {
   background-image: none !important;
 }
-/* line 80, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 .carousel .glyphicon {
   color: #c3c0c8 !important;
 }
-/* line 85, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .carousel .carousel-indicators li {
   background-color: #ebb1b2 !important;
 }
 
 /*<---------------------------------------------------------Timeline------------------------------------------------------------------------>*/
-/* line 92, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .timeline-section {
   background-color: #C3C0C8;
   padding: 2.1em;
@@ -91,11 +275,11 @@ body {
   font-family: gillsans, sans-serif;
   color: #777;
 }
-/* line 98, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 .timeline-section .timeline-border {
   border: 0.75em solid #e5d2d2;
 }
-/* line 102, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 .timeline-section .timeline-container {
   position: relative;
   max-width: 73.1em;
@@ -103,7 +287,7 @@ body {
   padding: 3.6em 0;
   /* this is the vertical line */
 }
-/* line 109, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 .timeline-section .timeline-container::before {
   content: '';
   width: 0.25em;
@@ -113,7 +297,7 @@ body {
   transform: translateX(-50%);
   background: #ffffff;
 }
-/* line 119, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block {
   width: 100%;
   height: 12.8em;
@@ -122,11 +306,11 @@ body {
   /* removes margin from last timeline item so timeline equidistant from top and bottom */
   /* these are the points on the line */
 }
-/* line 125, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:last-child {
   margin-bottom: 0;
 }
-/* line 130, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-circle {
   width: 2.145em;
   height: 2.145em;
@@ -137,7 +321,7 @@ body {
   margin-left: -1.1em;
   background-color: #636a36;
 }
-/* line 141, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content {
   position: relative;
   padding: 0.72em 2.214em;
@@ -148,7 +332,7 @@ body {
   margin-right: 4.16em;
   width: 28.75em;
 }
-/* line 151, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content .date {
   background: #e5d2d2;
   display: inline-block;
@@ -161,50 +345,50 @@ body {
   font-family: "Titillium Web", sans-serif;
   font-weight: 500;
 }
-/* line 166, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .date {
   right: auto;
   left: 0;
 }
-/* line 171, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .timeline-content {
   padding-left: 5em;
   float: right;
 }
 
 /*<---------------------------------------------------------Footer------------------------------------------------------------------------>*/
-/* line 180, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 .white-space {
   height: 1em;
   background-color: #ffffff;
 }
 
-/* line 185, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 footer {
   background-color: #e5d2d2;
 }
-/* line 188, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 footer .tag-line {
   display: flex;
   align-items: center;
 }
-/* line 192, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 footer .tag-line p {
   font-family: garamond, serif;
   font-size: 2.86em;
   color: #a17878;
 }
-/* line 197, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 footer .tag-line p .tag-line-number {
   text-decoration: underline;
 }
-/* line 201, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 footer .tag-line p .emphasized {
-  font-family: gillsans, sans-serif;
-  font-size: 1.3em;
+  font-family: freebooter script, gillsans, sans-serif;
+  font-size: 1.4em;
   letter-spacing: 0.05em;
 }
-/* line 209, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 footer .resource-title {
   text-align: left;
   padding: 0.25em 0 0.25em 0;
@@ -213,7 +397,7 @@ footer .resource-title {
   font-weight: 500;
   letter-spacing: 0.18em;
 }
-/* line 217, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 footer .resource-title::before {
   content: '';
   width: 0.13em;
@@ -223,20 +407,20 @@ footer .resource-title::before {
   transform: translateX(50%);
   background: #ffffff;
 }
-/* line 228, ../sass/styles.scss */
-footer .resources {
+/* line 230, ../sass/styles.scss */
+footer .resources-list {
   list-style: none;
   text-align: left;
   padding-left: 1.4em;
 }
-/* line 233, ../sass/styles.scss */
-footer .resources p {
+/* line 235, ../sass/styles.scss */
+footer .resources-list p {
   font-size: 0.93em;
   color: #777;
   font-weight: 600;
 }
 
-/* line 241, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 .copyright {
   height: 4.5em;
   padding: 0.5em;

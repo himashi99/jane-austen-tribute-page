@@ -1,5 +1,7 @@
 @import "compass";
 @import "partials/variables";
+@import "partials/media";
+
 
 body {
   font-size: 12px; //em size is based on this
@@ -46,7 +48,7 @@ body {
 
   //div where paragraph lies within//
   .carousel-inner {
-    width: 50% !important;
+    width: 50%;
   }
 
     //paragraph text//
@@ -199,8 +201,8 @@ footer {
         }
 
         .emphasized {
-	         font-family: $sans-serif-gillsans;
-	         font-size: 1.3em;
+	         font-family: $script, $sans-serif-gillsans;
+	         font-size: 1.4em;
 	         letter-spacing: 0.05em;
          }
      }
@@ -225,7 +227,7 @@ footer {
       }
     }
 
-    .resources {
+    .resources-list {
     	list-style: none;
     	text-align: left;
     	padding-left: 1.4em;
