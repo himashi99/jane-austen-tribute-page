@@ -1,147 +1,158 @@
 @media only screen and (max-width: 400px) {
-  /* line 10, ../sass/partials/_media.scss */
-  .carousel-inner {
-    width: 80% !important;
+  /* line 12, ../sass/partials/_media.scss */
+  .banner {
+    height: 100vh !important;
+    background: url(../../assets/banner-image/background-phone.jpg) !important;
   }
 
-  /* line 14, ../sass/partials/_media.scss */
+  /* line 17, ../sass/partials/_media.scss */
+  .carousel-inner {
+    width: 70% !important;
+  }
+
+  /* line 21, ../sass/partials/_media.scss */
   .item {
     height: 15em !important;
   }
 
-  /* line 18, ../sass/partials/_media.scss */
+  /* line 25, ../sass/partials/_media.scss */
+  .item p {
+    font-size: 0.85em;
+  }
+
+  /* line 29, ../sass/partials/_media.scss */
   .timeline-border {
     border: 0em !important;
   }
 
-  /* line 22, ../sass/partials/_media.scss */
+  /* line 33, ../sass/partials/_media.scss */
   .timeline-block {
     height: 19em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 27, ../sass/partials/_media.scss */
+  /* line 38, ../sass/partials/_media.scss */
   .timeline-block:nth-child(2n) {
     height: 16em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 32, ../sass/partials/_media.scss */
+  /* line 43, ../sass/partials/_media.scss */
   .timeline-block:nth-child(3n) {
     height: 11.5em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 37, ../sass/partials/_media.scss */
+  /* line 48, ../sass/partials/_media.scss */
   .timeline-block:nth-child(4n) {
     margin-bottom: 1.5em !important;
   }
 
-  /* line 41, ../sass/partials/_media.scss */
+  /* line 52, ../sass/partials/_media.scss */
   .timeline-block:nth-child(5n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 46, ../sass/partials/_media.scss */
+  /* line 57, ../sass/partials/_media.scss */
   .timeline-block:nth-child(6n) {
     height: 24em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 51, ../sass/partials/_media.scss */
+  /* line 62, ../sass/partials/_media.scss */
   .timeline-block:nth-child(7n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 56, ../sass/partials/_media.scss */
+  /* line 67, ../sass/partials/_media.scss */
   .timeline-block:nth-child(8n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 61, ../sass/partials/_media.scss */
+  /* line 72, ../sass/partials/_media.scss */
   .timeline-block:nth-child(9n) {
     height: 24em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 66, ../sass/partials/_media.scss */
+  /* line 77, ../sass/partials/_media.scss */
   .timeline-block:nth-child(10n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 1em !important;
   }
 
-  /* line 71, ../sass/partials/_media.scss */
+  /* line 82, ../sass/partials/_media.scss */
   .timeline-block:nth-child(12n) {
     height: 16em !important;
     /* Height is very important! */
     margin-bottom: 1.5em !important;
   }
 
-  /* line 76, ../sass/partials/_media.scss */
+  /* line 87, ../sass/partials/_media.scss */
   .timeline-block:nth-child(13n) {
     height: 14.5em !important;
     /* Height is very important! */
     margin-bottom: 1em !important;
   }
 
-  /* line 81, ../sass/partials/_media.scss */
+  /* line 92, ../sass/partials/_media.scss */
   .timeline-block:nth-child(14n) {
     height: 10em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 86, ../sass/partials/_media.scss */
+  /* line 97, ../sass/partials/_media.scss */
   .timeline-block:nth-child(15n) {
     height: 10em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 91, ../sass/partials/_media.scss */
+  /* line 102, ../sass/partials/_media.scss */
   .timeline-block:nth-child(16n) {
     height: 22em !important;
     /* Height is very important! */
     margin-bottom: 1.4em !important;
   }
 
-  /* line 96, ../sass/partials/_media.scss */
+  /* line 107, ../sass/partials/_media.scss */
   .timeline-block:nth-child(18n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 101, ../sass/partials/_media.scss */
+  /* line 112, ../sass/partials/_media.scss */
   .timeline-block:nth-child(19n) {
     margin-bottom: 1em !important;
   }
 
-  /* line 105, ../sass/partials/_media.scss */
+  /* line 116, ../sass/partials/_media.scss */
   .timeline-block:nth-child(20n) {
     margin-bottom: 2.9em !important;
   }
 
-  /* line 110, ../sass/partials/_media.scss */
+  /* line 121, ../sass/partials/_media.scss */
   .timeline-container::before {
     /* this is the vertical line */
     left: 0 !important;
   }
 
   /* these are the points on the line */
-  /* line 116, ../sass/partials/_media.scss */
+  /* line 127, ../sass/partials/_media.scss */
   .timeline-circle {
     width: 1.8em !important;
     height: 1.8em !important;
@@ -149,37 +160,187 @@
     margin-left: -0.95em !important;
   }
 
-  /* line 123, ../sass/partials/_media.scss */
+  /* line 134, ../sass/partials/_media.scss */
   .timeline-content {
     margin-left: 2em !important;
     width: 21.5em !important;
   }
 
-  /* line 128, ../sass/partials/_media.scss */
+  /* line 139, ../sass/partials/_media.scss */
   .timeline-block:nth-child(even) .date {
     left: auto !important;
     right: 0 !important;
   }
 
-  /* line 133, ../sass/partials/_media.scss */
+  /* line 144, ../sass/partials/_media.scss */
   .timeline-block:nth-child(even) .timeline-content {
     padding: 0.72em 2.214em !important;
     float: none !important;
   }
 
-  /* line 138, ../sass/partials/_media.scss */
+  /* line 149, ../sass/partials/_media.scss */
   .tag-line {
     font-size: 0.5em;
   }
 
-  /* line 142, ../sass/partials/_media.scss */
+  /* line 153, ../sass/partials/_media.scss */
   .resource-title {
     font-size: 1.9em;
   }
 
-  /* line 146, ../sass/partials/_media.scss */
+  /* line 157, ../sass/partials/_media.scss */
   .resources-list {
     font-size: 2em;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  /* line 165, ../sass/partials/_media.scss */
+  .banner {
+    height: 100vh !important;
+    background: url(../../assets/banner-image/background-tablet.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* line 173, ../sass/partials/_media.scss */
+  .timeline-block {
+    height: 19em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 178, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(2n) {
+    height: 16em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 183, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(3n) {
+    height: 11.5em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 188, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(4n) {
+    margin-bottom: 1.5em !important;
+  }
+
+  /* line 192, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(5n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 197, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(6n) {
+    height: 24em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 202, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(7n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 207, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(8n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 212, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(9n) {
+    height: 24em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 217, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(10n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 1em !important;
+  }
+
+  /* line 222, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(12n) {
+    height: 16em !important;
+    /* Height is very important! */
+    margin-bottom: 1.5em !important;
+  }
+
+  /* line 227, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(13n) {
+    height: 14.5em !important;
+    /* Height is very important! */
+    margin-bottom: 1em !important;
+  }
+
+  /* line 232, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(14n) {
+    height: 10em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 237, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(15n) {
+    height: 10em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 242, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(16n) {
+    height: 22em !important;
+    /* Height is very important! */
+    margin-bottom: 1.4em !important;
+  }
+
+  /* line 247, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(18n) {
+    height: 13em !important;
+    /* Height is very important! */
+    margin-bottom: 0em !important;
+  }
+
+  /* line 252, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(19n) {
+    margin-bottom: 1em !important;
+  }
+
+  /* line 256, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(20n) {
+    margin-bottom: 2.9em !important;
+  }
+
+  /* line 260, ../sass/partials/_media.scss */
+  .timeline-block:last-child {
+    height: 14em !important;
+    /* Height is very important! */
+    margin-bottom: 1.3em !important;
+  }
+
+  /* these are the points on the line */
+  /* line 280, ../sass/partials/_media.scss */
+  .timeline-content {
+    margin-left: 1em !important;
+    width: 21.5em !important;
+  }
+
+  /* line 285, ../sass/partials/_media.scss */
+  .timeline-block:nth-child(even) .timeline-content {
+    padding-left: 3.9em !important;
+    margin-right: 1em !important;
   }
 }
 /* line 6, ../sass/styles.scss */
@@ -232,42 +393,46 @@ body {
   width: 50%;
 }
 /* line 55, ../sass/styles.scss */
+.carousel .item {
+  height: 10em;
+}
+/* line 60, ../sass/styles.scss */
 .carousel .item p {
   padding-left: 1.18em;
   padding-right: 1.18em;
   font-family: serif;
   color: #777;
 }
-/* line 62, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .carousel blockquote:before, .carousel blockquote:after {
   content: '\f10d';
   font-family: 'FontAwesome';
   color: #ebb1b2;
 }
-/* line 68, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .carousel blockquote:after {
   content: '\f10e';
   float: right;
 }
-/* line 73, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .carousel .carousel-control.left {
   background-image: none !important;
 }
-/* line 77, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 .carousel .carousel-control.right {
   background-image: none !important;
 }
-/* line 82, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .carousel .glyphicon {
   color: #c3c0c8 !important;
 }
-/* line 87, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .carousel .carousel-indicators li {
   background-color: #ebb1b2 !important;
 }
 
 /*<---------------------------------------------------------Timeline------------------------------------------------------------------------>*/
-/* line 94, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 .timeline-section {
   background-color: #C3C0C8;
   padding: 2.1em;
@@ -275,11 +440,11 @@ body {
   font-family: gillsans, sans-serif;
   color: #777;
 }
-/* line 100, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 .timeline-section .timeline-border {
   border: 0.75em solid #e5d2d2;
 }
-/* line 104, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 .timeline-section .timeline-container {
   position: relative;
   max-width: 73.1em;
@@ -287,7 +452,7 @@ body {
   padding: 3.6em 0;
   /* this is the vertical line */
 }
-/* line 111, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .timeline-section .timeline-container::before {
   content: '';
   width: 0.25em;
@@ -297,7 +462,7 @@ body {
   transform: translateX(-50%);
   background: #ffffff;
 }
-/* line 121, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block {
   width: 100%;
   height: 12.8em;
@@ -306,11 +471,11 @@ body {
   /* removes margin from last timeline item so timeline equidistant from top and bottom */
   /* these are the points on the line */
 }
-/* line 127, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:last-child {
   margin-bottom: 0;
 }
-/* line 132, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-circle {
   width: 2.145em;
   height: 2.145em;
@@ -321,7 +486,7 @@ body {
   margin-left: -1.1em;
   background-color: #636a36;
 }
-/* line 143, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content {
   position: relative;
   padding: 0.72em 2.214em;
@@ -332,7 +497,7 @@ body {
   margin-right: 4.16em;
   width: 28.75em;
 }
-/* line 153, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content .date {
   background: #e5d2d2;
   display: inline-block;
@@ -345,50 +510,50 @@ body {
   font-family: "Titillium Web", sans-serif;
   font-weight: 500;
 }
-/* line 168, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .date {
   right: auto;
   left: 0;
 }
-/* line 173, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .timeline-content {
   padding-left: 5em;
   float: right;
 }
 
 /*<---------------------------------------------------------Footer------------------------------------------------------------------------>*/
-/* line 182, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 .white-space {
   height: 1em;
   background-color: #ffffff;
 }
 
-/* line 187, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 footer {
   background-color: #e5d2d2;
 }
-/* line 190, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 footer .tag-line {
   display: flex;
   align-items: center;
 }
-/* line 194, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 footer .tag-line p {
   font-family: garamond, serif;
   font-size: 2.86em;
   color: #a17878;
 }
-/* line 199, ../sass/styles.scss */
+/* line 204, ../sass/styles.scss */
 footer .tag-line p .tag-line-number {
   text-decoration: underline;
 }
-/* line 203, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 footer .tag-line p .emphasized {
   font-family: freebooter script, gillsans, sans-serif;
   font-size: 1.4em;
   letter-spacing: 0.05em;
 }
-/* line 211, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 footer .resource-title {
   text-align: left;
   padding: 0.25em 0 0.25em 0;
@@ -397,7 +562,7 @@ footer .resource-title {
   font-weight: 500;
   letter-spacing: 0.18em;
 }
-/* line 219, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 footer .resource-title::before {
   content: '';
   width: 0.13em;
@@ -407,20 +572,20 @@ footer .resource-title::before {
   transform: translateX(50%);
   background: #ffffff;
 }
-/* line 230, ../sass/styles.scss */
+/* line 235, ../sass/styles.scss */
 footer .resources-list {
   list-style: none;
   text-align: left;
   padding-left: 1.4em;
 }
-/* line 235, ../sass/styles.scss */
+/* line 240, ../sass/styles.scss */
 footer .resources-list p {
   font-size: 0.93em;
   color: #777;
   font-weight: 600;
 }
 
-/* line 243, ../sass/styles.scss */
+/* line 248, ../sass/styles.scss */
 .copyright {
   height: 4.5em;
   padding: 0.5em;

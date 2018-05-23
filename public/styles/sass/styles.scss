@@ -51,6 +51,11 @@ body {
     width: 50%;
   }
 
+    //This height makes sure the quotes don't jump if they aren't all 2 lines long//
+    .item {
+      height: 10em;
+    }
+
     //paragraph text//
     .item p {
       padding-left: 1.18em;
