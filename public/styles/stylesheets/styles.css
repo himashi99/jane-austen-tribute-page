@@ -1,158 +1,158 @@
 @media only screen and (max-width: 400px) {
-  /* line 12, ../sass/partials/_media.scss */
+  /* line 6, ../sass/partials/_media.scss */
   .banner {
     height: 100vh !important;
     background: url(../../assets/banner-image/background-phone.jpg) !important;
   }
 
-  /* line 17, ../sass/partials/_media.scss */
+  /* line 11, ../sass/partials/_media.scss */
   .carousel-inner {
     width: 70% !important;
   }
 
-  /* line 21, ../sass/partials/_media.scss */
+  /* line 15, ../sass/partials/_media.scss */
   .item {
     height: 15em !important;
   }
 
-  /* line 25, ../sass/partials/_media.scss */
+  /* line 19, ../sass/partials/_media.scss */
   .item p {
     font-size: 0.85em;
   }
 
-  /* line 29, ../sass/partials/_media.scss */
+  /* line 23, ../sass/partials/_media.scss */
   .timeline-border {
     border: 0em !important;
   }
 
-  /* line 33, ../sass/partials/_media.scss */
+  /* line 27, ../sass/partials/_media.scss */
   .timeline-block {
     height: 19em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 38, ../sass/partials/_media.scss */
+  /* line 32, ../sass/partials/_media.scss */
   .timeline-block:nth-child(2n) {
     height: 16em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 43, ../sass/partials/_media.scss */
+  /* line 37, ../sass/partials/_media.scss */
   .timeline-block:nth-child(3n) {
     height: 11.5em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 48, ../sass/partials/_media.scss */
+  /* line 42, ../sass/partials/_media.scss */
   .timeline-block:nth-child(4n) {
     margin-bottom: 1.5em !important;
   }
 
-  /* line 52, ../sass/partials/_media.scss */
+  /* line 46, ../sass/partials/_media.scss */
   .timeline-block:nth-child(5n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 57, ../sass/partials/_media.scss */
+  /* line 51, ../sass/partials/_media.scss */
   .timeline-block:nth-child(6n) {
     height: 24em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 62, ../sass/partials/_media.scss */
+  /* line 56, ../sass/partials/_media.scss */
   .timeline-block:nth-child(7n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 67, ../sass/partials/_media.scss */
+  /* line 61, ../sass/partials/_media.scss */
   .timeline-block:nth-child(8n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 72, ../sass/partials/_media.scss */
+  /* line 66, ../sass/partials/_media.scss */
   .timeline-block:nth-child(9n) {
     height: 24em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 77, ../sass/partials/_media.scss */
+  /* line 71, ../sass/partials/_media.scss */
   .timeline-block:nth-child(10n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 1em !important;
   }
 
-  /* line 82, ../sass/partials/_media.scss */
+  /* line 76, ../sass/partials/_media.scss */
   .timeline-block:nth-child(12n) {
     height: 16em !important;
     /* Height is very important! */
     margin-bottom: 1.5em !important;
   }
 
-  /* line 87, ../sass/partials/_media.scss */
+  /* line 81, ../sass/partials/_media.scss */
   .timeline-block:nth-child(13n) {
     height: 14.5em !important;
     /* Height is very important! */
     margin-bottom: 1em !important;
   }
 
-  /* line 92, ../sass/partials/_media.scss */
+  /* line 86, ../sass/partials/_media.scss */
   .timeline-block:nth-child(14n) {
     height: 10em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 97, ../sass/partials/_media.scss */
+  /* line 91, ../sass/partials/_media.scss */
   .timeline-block:nth-child(15n) {
     height: 10em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 102, ../sass/partials/_media.scss */
+  /* line 96, ../sass/partials/_media.scss */
   .timeline-block:nth-child(16n) {
     height: 22em !important;
     /* Height is very important! */
     margin-bottom: 1.4em !important;
   }
 
-  /* line 107, ../sass/partials/_media.scss */
+  /* line 101, ../sass/partials/_media.scss */
   .timeline-block:nth-child(18n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 112, ../sass/partials/_media.scss */
+  /* line 106, ../sass/partials/_media.scss */
   .timeline-block:nth-child(19n) {
     margin-bottom: 1em !important;
   }
 
-  /* line 116, ../sass/partials/_media.scss */
+  /* line 110, ../sass/partials/_media.scss */
   .timeline-block:nth-child(20n) {
     margin-bottom: 2.9em !important;
   }
 
-  /* line 121, ../sass/partials/_media.scss */
+  /* line 115, ../sass/partials/_media.scss */
   .timeline-container::before {
     /* this is the vertical line */
     left: 0 !important;
   }
 
   /* these are the points on the line */
-  /* line 127, ../sass/partials/_media.scss */
+  /* line 121, ../sass/partials/_media.scss */
   .timeline-circle {
     width: 1.8em !important;
     height: 1.8em !important;
@@ -160,41 +160,41 @@
     margin-left: -0.95em !important;
   }
 
-  /* line 134, ../sass/partials/_media.scss */
+  /* line 128, ../sass/partials/_media.scss */
   .timeline-content {
     margin-left: 2em !important;
     width: 21.5em !important;
   }
 
-  /* line 139, ../sass/partials/_media.scss */
+  /* line 133, ../sass/partials/_media.scss */
   .timeline-block:nth-child(even) .date {
     left: auto !important;
     right: 0 !important;
   }
 
-  /* line 144, ../sass/partials/_media.scss */
+  /* line 138, ../sass/partials/_media.scss */
   .timeline-block:nth-child(even) .timeline-content {
     padding: 0.72em 2.214em !important;
     float: none !important;
   }
 
-  /* line 149, ../sass/partials/_media.scss */
+  /* line 143, ../sass/partials/_media.scss */
   .tag-line {
     font-size: 0.5em;
   }
 
-  /* line 153, ../sass/partials/_media.scss */
+  /* line 147, ../sass/partials/_media.scss */
   .resource-title {
     font-size: 1.9em;
   }
 
-  /* line 157, ../sass/partials/_media.scss */
+  /* line 151, ../sass/partials/_media.scss */
   .resources-list {
     font-size: 2em;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 768px) {
-  /* line 165, ../sass/partials/_media.scss */
+  /* line 159, ../sass/partials/_media.scss */
   .banner {
     height: 100vh !important;
     background: url(../../assets/banner-image/background-tablet.jpg) !important;
@@ -203,141 +203,140 @@
     background-size: cover;
   }
 
-  /* line 173, ../sass/partials/_media.scss */
+  /* line 167, ../sass/partials/_media.scss */
   .timeline-block {
     height: 19em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 178, ../sass/partials/_media.scss */
+  /* line 172, ../sass/partials/_media.scss */
   .timeline-block:nth-child(2n) {
     height: 16em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 183, ../sass/partials/_media.scss */
+  /* line 177, ../sass/partials/_media.scss */
   .timeline-block:nth-child(3n) {
     height: 11.5em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 188, ../sass/partials/_media.scss */
+  /* line 182, ../sass/partials/_media.scss */
   .timeline-block:nth-child(4n) {
     margin-bottom: 1.5em !important;
   }
 
-  /* line 192, ../sass/partials/_media.scss */
+  /* line 186, ../sass/partials/_media.scss */
   .timeline-block:nth-child(5n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 197, ../sass/partials/_media.scss */
+  /* line 191, ../sass/partials/_media.scss */
   .timeline-block:nth-child(6n) {
     height: 24em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 202, ../sass/partials/_media.scss */
+  /* line 196, ../sass/partials/_media.scss */
   .timeline-block:nth-child(7n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 207, ../sass/partials/_media.scss */
+  /* line 201, ../sass/partials/_media.scss */
   .timeline-block:nth-child(8n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 212, ../sass/partials/_media.scss */
+  /* line 206, ../sass/partials/_media.scss */
   .timeline-block:nth-child(9n) {
     height: 24em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 217, ../sass/partials/_media.scss */
+  /* line 211, ../sass/partials/_media.scss */
   .timeline-block:nth-child(10n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 1em !important;
   }
 
-  /* line 222, ../sass/partials/_media.scss */
+  /* line 216, ../sass/partials/_media.scss */
   .timeline-block:nth-child(12n) {
     height: 16em !important;
     /* Height is very important! */
     margin-bottom: 1.5em !important;
   }
 
-  /* line 227, ../sass/partials/_media.scss */
+  /* line 221, ../sass/partials/_media.scss */
   .timeline-block:nth-child(13n) {
     height: 14.5em !important;
     /* Height is very important! */
     margin-bottom: 1em !important;
   }
 
-  /* line 232, ../sass/partials/_media.scss */
+  /* line 226, ../sass/partials/_media.scss */
   .timeline-block:nth-child(14n) {
     height: 10em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 237, ../sass/partials/_media.scss */
+  /* line 231, ../sass/partials/_media.scss */
   .timeline-block:nth-child(15n) {
     height: 10em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 242, ../sass/partials/_media.scss */
+  /* line 236, ../sass/partials/_media.scss */
   .timeline-block:nth-child(16n) {
     height: 22em !important;
     /* Height is very important! */
     margin-bottom: 1.4em !important;
   }
 
-  /* line 247, ../sass/partials/_media.scss */
+  /* line 241, ../sass/partials/_media.scss */
   .timeline-block:nth-child(18n) {
     height: 13em !important;
     /* Height is very important! */
     margin-bottom: 0em !important;
   }
 
-  /* line 252, ../sass/partials/_media.scss */
+  /* line 246, ../sass/partials/_media.scss */
   .timeline-block:nth-child(19n) {
     margin-bottom: 1em !important;
   }
 
-  /* line 256, ../sass/partials/_media.scss */
+  /* line 250, ../sass/partials/_media.scss */
   .timeline-block:nth-child(20n) {
     margin-bottom: 2.9em !important;
   }
 
-  /* line 260, ../sass/partials/_media.scss */
+  /* line 254, ../sass/partials/_media.scss */
   .timeline-block:last-child {
     height: 14em !important;
     /* Height is very important! */
     margin-bottom: 1.3em !important;
   }
 
-  /* these are the points on the line */
-  /* line 280, ../sass/partials/_media.scss */
+  /* line 261, ../sass/partials/_media.scss */
   .timeline-content {
     margin-left: 1em !important;
     width: 21.5em !important;
   }
 
-  /* line 285, ../sass/partials/_media.scss */
+  /* line 266, ../sass/partials/_media.scss */
   .timeline-block:nth-child(even) .timeline-content {
     padding-left: 3.9em !important;
     margin-right: 1em !important;

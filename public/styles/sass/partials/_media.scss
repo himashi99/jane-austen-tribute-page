@@ -1,11 +1,5 @@
 // /* Small Devices, Tablets */
 
-// @media only screen and (min-device : 768px) {
-//   .carousel-inner {
-//     width: 80% !important;
-//   }
-// }
-
 //if the screen size is less than or equal to 400px
 @media only screen and (max-width : 400px) {
 
@@ -264,19 +258,6 @@
 
 ///////////////////////////////////////////////////////////
 
-  // .timeline-container::before {
-  // /* this is the vertical line */
-	// 	left: 0 !important;
-  // }
-
-  /* these are the points on the line */
-  // .timeline-circle {
-  //    width: 1.8em !important;
-  //    height: 1.8em !important;
-  //    left: 0 !important;
-  //    margin-left: -0.95em !important;
-  // }
-
   .timeline-content {
      margin-left: 1em !important;
      width: 21.5em !important;
@@ -286,15 +267,4 @@
     padding-left: 3.9em !important;
     margin-right: 1em !important;
   }
-
-  // .timeline-block:nth-child(even) .date {
-  //   left: auto !important;
-  //   right: 0 !important;
-  // }
-  //
-  // .timeline-block:nth-child(even) .timeline-content {
-  //   padding: 0.72em 2.214em !important;
-  //   float: none !important;
-  // }
-
 }
