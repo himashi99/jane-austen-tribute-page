@@ -1,9 +1,3 @@
-@font-face {
-  font-family: 'freebooter_script_-_altsRg';
-  src: url("../../../fonts/freebsca-webfont.woff2") format("woff2"), url("../../../fonts/freebsca-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 @media only screen and (max-width: 400px) {
   /* line 6, ../sass/partials/_media.scss */
   .banner {
@@ -348,19 +342,19 @@
     margin-right: 1em !important;
   }
 }
-/* line 7, ../sass/styles.scss */
+/* line 6, ../sass/styles.scss */
 body {
   font-size: 12px;
 }
 
 /*<---------------------------------------------------------Navbar------------------------------------------------------------------------->*/
-/* line 13, ../sass/styles.scss */
+/* line 12, ../sass/styles.scss */
 .navbar {
   margin-bottom: 0 !important;
   border: none !important;
   background-color: #ffffff !important;
 }
-/* line 18, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 .navbar .nav li {
   font-family: gibson, sans-serif;
   text-transform: uppercase;
@@ -369,13 +363,13 @@ body {
   font-weight: 100;
   color: #999;
 }
-/* line 27, ../sass/styles.scss */
+/* line 26, ../sass/styles.scss */
 .navbar .navbar-brand {
   padding: 0.25em 1.36em 0.25em !important;
 }
 
 /*<-------------------------------------------------Banner Background Image--------------------------------------------------------------->*/
-/* line 34, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .banner {
   width: 100%;
   height: 58em;
@@ -385,7 +379,7 @@ body {
 }
 
 /*<----------------------------------------------------Quotes Carousel-------------------------------------------------------------------->*/
-/* line 44, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .carousel {
   width: 100%;
   height: 28.5em;
@@ -393,51 +387,51 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* line 52, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .carousel .carousel-inner {
   width: 50%;
 }
-/* line 57, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .carousel .item {
   height: 10em;
 }
-/* line 62, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 .carousel .item p {
   padding-left: 1.18em;
   padding-right: 1.18em;
   font-family: serif;
   color: #777;
 }
-/* line 69, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .carousel blockquote:before, .carousel blockquote:after {
   content: '\f10d';
   font-family: 'FontAwesome';
   color: #ebb1b2;
 }
-/* line 75, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 .carousel blockquote:after {
   content: '\f10e';
   float: right;
 }
-/* line 80, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 .carousel .carousel-control.left {
   background-image: none !important;
 }
-/* line 84, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .carousel .carousel-control.right {
   background-image: none !important;
 }
-/* line 89, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .carousel .glyphicon {
   color: #c3c0c8 !important;
 }
-/* line 94, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .carousel .carousel-indicators li {
   background-color: #ebb1b2 !important;
 }
 
 /*<---------------------------------------------------------Timeline------------------------------------------------------------------------>*/
-/* line 101, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 .timeline-section {
   background-color: #C3C0C8;
   padding: 2.1em;
@@ -445,11 +439,11 @@ body {
   font-family: gillsans, sans-serif;
   color: #777;
 }
-/* line 107, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .timeline-section .timeline-border {
   border: 0.75em solid #e5d2d2;
 }
-/* line 111, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .timeline-section .timeline-container {
   position: relative;
   max-width: 73.1em;
@@ -457,7 +451,7 @@ body {
   padding: 3.6em 0;
   /* this is the vertical line */
 }
-/* line 118, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .timeline-section .timeline-container::before {
   content: '';
   width: 0.25em;
@@ -467,7 +461,7 @@ body {
   transform: translateX(-50%);
   background: #ffffff;
 }
-/* line 128, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block {
   width: 100%;
   height: 12.8em;
@@ -476,11 +470,11 @@ body {
   /* removes margin from last timeline item so timeline equidistant from top and bottom */
   /* these are the points on the line */
 }
-/* line 134, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:last-child {
   margin-bottom: 0;
 }
-/* line 139, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-circle {
   width: 2.145em;
   height: 2.145em;
@@ -491,7 +485,7 @@ body {
   margin-left: -1.1em;
   background-color: #636a36;
 }
-/* line 150, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content {
   position: relative;
   padding: 0.72em 2.214em;
@@ -502,13 +496,13 @@ body {
   margin-right: 4.16em;
   width: 28.75em;
 }
-/* line 160, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content h3 {
   font-family: Bilbo Swash Caps, cursive;
   font-weight: bold;
   letter-spacing: 0.06em;
 }
-/* line 166, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content .date {
   background: #e5d2d2;
   display: inline-block;
@@ -521,50 +515,50 @@ body {
   font-family: "Titillium Web", sans-serif;
   font-weight: 500;
 }
-/* line 181, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .date {
   right: auto;
   left: 0;
 }
-/* line 186, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .timeline-content {
   padding-left: 5em;
   float: right;
 }
 
 /*<---------------------------------------------------------Footer------------------------------------------------------------------------>*/
-/* line 195, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 .white-space {
   height: 1em;
   background-color: #ffffff;
 }
 
-/* line 200, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 footer {
   background-color: #e5d2d2;
 }
-/* line 203, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 footer .tag-line {
   display: flex;
   align-items: center;
 }
-/* line 207, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 footer .tag-line p {
   font-family: garamond, serif;
   font-size: 2.86em;
   color: #a17878;
 }
-/* line 212, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 footer .tag-line p .tag-line-number {
   text-decoration: underline;
 }
-/* line 216, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 footer .tag-line p .emphasized {
   font-family: freebooter script, Italianno, cursive, gillsans, sans-serif;
   font-size: 1.4em;
   letter-spacing: 0.05em;
 }
-/* line 224, ../sass/styles.scss */
+/* line 223, ../sass/styles.scss */
 footer .resource-title {
   text-align: left;
   padding: 0.25em 0 0.25em 0;
@@ -573,7 +567,7 @@ footer .resource-title {
   font-weight: 500;
   letter-spacing: 0.18em;
 }
-/* line 232, ../sass/styles.scss */
+/* line 231, ../sass/styles.scss */
 footer .resource-title::before {
   content: '';
   width: 0.13em;
@@ -583,20 +577,20 @@ footer .resource-title::before {
   transform: translateX(50%);
   background: #ffffff;
 }
-/* line 243, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 footer .resources-list {
   list-style: none;
   text-align: left;
   padding-left: 1.4em;
 }
-/* line 248, ../sass/styles.scss */
+/* line 247, ../sass/styles.scss */
 footer .resources-list p {
   font-size: 0.93em;
   color: #777;
   font-weight: 600;
 }
 
-/* line 256, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .copyright {
   height: 4.5em;
   padding: 0.5em;
@@ -604,7 +598,7 @@ footer .resources-list p {
   color: #f2d9d9;
   background-color: #a17878;
 }
-/* line 263, ../sass/styles.scss */
+/* line 262, ../sass/styles.scss */
 .copyright .portfolio {
   height: 4.5em;
   padding: 0.5em;
@@ -613,7 +607,7 @@ footer .resources-list p {
   background-color: #a17878;
   text-decoration: underline;
 }
-/* line 272, ../sass/styles.scss */
+/* line 271, ../sass/styles.scss */
 .copyright .freepik {
   color: #f2d9d9;
   text-decoration: underline;
