@@ -1,4 +1,5 @@
 @import "compass";
+@import "partials/fonts";
 @import "partials/variables";
 @import "partials/media";
 
@@ -6,6 +7,7 @@
 body {
   font-size: 12px; //em size is based on this
 }
+
 /*<---------------------------------------------------------Navbar------------------------------------------------------------------------->*/
 
 .navbar {
@@ -251,4 +253,18 @@ footer {
   text-align: center;
   color: $copyright-pink;
   background-color: $darker-pink;
+
+  .portfolio {
+    height: 4.5em;
+    padding: 0.5em;
+    text-align: center;
+    color: $copyright-pink;
+    background-color: $darker-pink;
+    text-decoration: underline;
+  }
+
+  .freepik {
+    color: $copyright-pink;
+    text-decoration: underline;
+  }
 }
