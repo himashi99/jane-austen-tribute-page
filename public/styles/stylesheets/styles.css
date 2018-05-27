@@ -503,6 +503,12 @@ body {
   width: 28.75em;
 }
 /* line 160, ../sass/styles.scss */
+.timeline-section .timeline-container .timeline-block .timeline-content h3 {
+  font-family: Bilbo Swash Caps, cursive;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+}
+/* line 166, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block .timeline-content .date {
   background: #e5d2d2;
   display: inline-block;
@@ -515,50 +521,50 @@ body {
   font-family: "Titillium Web", sans-serif;
   font-weight: 500;
 }
-/* line 175, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .date {
   right: auto;
   left: 0;
 }
-/* line 180, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 .timeline-section .timeline-container .timeline-block:nth-child(even) .timeline-content {
   padding-left: 5em;
   float: right;
 }
 
 /*<---------------------------------------------------------Footer------------------------------------------------------------------------>*/
-/* line 189, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 .white-space {
   height: 1em;
   background-color: #ffffff;
 }
 
-/* line 194, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 footer {
   background-color: #e5d2d2;
 }
-/* line 197, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 footer .tag-line {
   display: flex;
   align-items: center;
 }
-/* line 201, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 footer .tag-line p {
   font-family: garamond, serif;
   font-size: 2.86em;
   color: #a17878;
 }
-/* line 206, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 footer .tag-line p .tag-line-number {
   text-decoration: underline;
 }
-/* line 210, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 footer .tag-line p .emphasized {
-  font-family: freebooter script, Italianno, gillsans, sans-serif;
+  font-family: freebooter script, Italianno, cursive, gillsans, sans-serif;
   font-size: 1.4em;
   letter-spacing: 0.05em;
 }
-/* line 218, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 footer .resource-title {
   text-align: left;
   padding: 0.25em 0 0.25em 0;
@@ -567,7 +573,7 @@ footer .resource-title {
   font-weight: 500;
   letter-spacing: 0.18em;
 }
-/* line 226, ../sass/styles.scss */
+/* line 232, ../sass/styles.scss */
 footer .resource-title::before {
   content: '';
   width: 0.13em;
@@ -577,20 +583,20 @@ footer .resource-title::before {
   transform: translateX(50%);
   background: #ffffff;
 }
-/* line 237, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 footer .resources-list {
   list-style: none;
   text-align: left;
   padding-left: 1.4em;
 }
-/* line 242, ../sass/styles.scss */
+/* line 248, ../sass/styles.scss */
 footer .resources-list p {
   font-size: 0.93em;
   color: #777;
   font-weight: 600;
 }
 
-/* line 250, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 .copyright {
   height: 4.5em;
   padding: 0.5em;
@@ -598,7 +604,7 @@ footer .resources-list p {
   color: #f2d9d9;
   background-color: #a17878;
 }
-/* line 257, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 .copyright .portfolio {
   height: 4.5em;
   padding: 0.5em;
@@ -607,7 +613,7 @@ footer .resources-list p {
   background-color: #a17878;
   text-decoration: underline;
 }
-/* line 266, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 .copyright .freepik {
   color: #f2d9d9;
   text-decoration: underline;

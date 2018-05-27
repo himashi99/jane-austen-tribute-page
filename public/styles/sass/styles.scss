@@ -157,6 +157,12 @@ body {
 	       margin-right: 4.16em;
 	       width: 28.75em;
 
+         h3 {
+           font-family: $script-timeline;
+           font-weight: bold;
+           letter-spacing: 0.06em;
+         }
+
         .date {
           background: #e5d2d2;
   	      display: inline-block;
